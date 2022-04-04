@@ -77,6 +77,7 @@ class _MoviePoster extends StatelessWidget {
             onTap: () =>
                 Navigator.pushNamed(context, 'detalles', arguments: movie),
             child: Hero(
+              //
               tag: movie.id,
               child: ClipRRect(
                 borderRadius: BorderRadius.circular(20),
